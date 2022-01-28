@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/*header Section styling*/
+header {
+    width: auto; height: 100px;
+    background-color:orange;
+    border-style: solid;
+    border-width: 5px;
+}
+
+header h1 {
+    font-size: 30px;
+    color: white;
+}
+
+/*header link styling*/
+.HeaderLink {
+    list-style-type: none;
+    float: right;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.HeaderLink a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    list-style-type: none;
+}
+
+/*About Me section starts*/ 
+.AboutMeContainer {
+    display: flexbox; width: 100%; height: auto;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+/*About me title*/
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*About me Paragraph*/
+.AboutMePrint {
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+
+/*start of Profile Pic section*/
+.ProfilePictureContainer img {
+    display: flexbox; width: 100%; height: auto;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+/*Profile Pic styling*/
+.ProfilePicture {
+    height: 400px; width: 310px;
+    border-radius: 120px;
+    
+}
+
+
+
+/*Projects Section*/
+
+/*footer*/
